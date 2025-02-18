@@ -1,25 +1,21 @@
-float [] xPositions;
-float [] yPositions;
+int h; 
+int m; 
+int s; 
 
-void setup() {
-  size(800, 800);
+String timeString; 
+
+void setup(){
+  size(500, 500);
+  textAlign(CENTER, CENTER);
+  textSize(40);
+}
+void draw(){
+  h = hour();
+  m = minute();
+  s = second();
+  
+  timeString = nf(h, 2) + ":" + nf(m, 2) + ":" + nf(s, 2);
+  
   background(0);
-  noStroke();
-
-  xPositions = new float[10];
-  yPositions = new float[10];
-
-  for (int i = 0; i < xPositions.length; i++) {
-    xPositions[i] = random(0, width);
-  } 
-
-  for (int i = 0; i < yPositions.length; i++) {
-    yPositions[i] = random(0, height);
-  } 
-} 
-
-void draw() {
-  for (int i = 0; i < xPositions.length; i++) {
-    ellipse(xPositions[i], yPositions[i], 50, 50);
-  }
+  text(timeString, width/2, height/2);
 }
