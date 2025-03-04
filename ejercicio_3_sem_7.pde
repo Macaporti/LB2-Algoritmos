@@ -12,7 +12,7 @@ FFT fft;
 void setup() {
   size (800, 800);
   background (0);
-  frameRate(800);
+  frameRate(60);
   
   minim = new Minim(this);
   player = minim.loadFile("time.mp3", 1024);
@@ -23,25 +23,21 @@ void setup() {
 void draw() {
   fft.forward(player.mix);
   level = fft.getBand(10);
-  rad = (level * width / 10);
   
-  float r = random(100, 200); // Tonos de morado
-  float g = random(0, 100);
-  float b = random(150, 255);
+  // Definir tamaño del cuadrado basado en el nivel del sonido
+  rad = (level * width / 5);
   
+  float r = random(100, 100);
+  float g = random(150, 180);
+  float b = random(255, 100);
   stroke(r, g, b);
-  fill(r, g, b, 150);
+  fill(255, 10);
   
-  float x1 = x;
-  float y1 = y;
-  float x2 = x + rad / 2;
-  float y2 = y - rad;
-  float x3 = x - rad / 2;
-  float y3 = y - rad;
+ 
+  square(x, y, rad);
   
-  triangle(x1, y1, x2, y2, x3, y3);
-  
-  x += rad / 2;
+  println(width);
+  x++;
 
   // Controla lo que pasa cuando se llega al borde derecho
   if (x > width) {
