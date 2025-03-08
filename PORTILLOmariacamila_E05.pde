@@ -1,4 +1,4 @@
-//Este Este código en se genera una interaccion entre diferentes figuras y codigos aprendidos en clase. Sin embargo, yo decidi usar un modo psicodelico 
+//Este código en se genera una interaccion entre diferentes figuras y codigos aprendidos en clase. Sin embargo, yo decidi usar un modo psicodelico 
 //para esta intervencion fue esencial comprender y tener la ayuda de chat got ya que asi pude utilizar comandos como map, sin, cos, shapeType, y la activacion del modo psicodelico.
 //A lo largo de la canción "Travis Scott - MY EYES", tome la desicion que las figuras cambiaarn de color y tamano para que fuera mas entretenido y demostrara lo aprendido hasta el momento en clase.
 //Finalmente, los colores de manera aleatoria para generar un efecto visual caótico y dinámico. Fue un ejercicio interesante y retador, un poco abrumante cuando no lograba lo que esperaba, 
