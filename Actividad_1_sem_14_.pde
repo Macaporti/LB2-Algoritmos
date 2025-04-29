@@ -32,7 +32,7 @@ void draw(){
   for(int i = 0; i < nSamples; i++) {
     //value            start 1    stop1           start2    stop2 
    float x = map(appUsageTime [i], 0,      max(appUsageTime), 0,  width);
-   float y = map(screenOnTime[i], 0,       max(screenOnTime), 0, height);
+   float y = map(screenOnTime[i], 0,       max(screenOnTime), height, 0);
     
     float rectWidth = 10; 
     float rectHeight = 10;
