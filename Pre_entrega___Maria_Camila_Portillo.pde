@@ -1,6 +1,7 @@
 // la historia de Valeria demuestra mi vida y mi sueño ideal, ahora bien para esta entrega se penso en hacer algo interactivo que fuera divertido para el usuario de realizar. 
 // esta historia corta trata de inspirar y decirle a las personas como es que por mas de que tenga uno obstaculos siempre va a poder sobrepasarlos sin importar que tan 
 // dificiles sean. Este codigo cuenta tambien con una cancion para que sea mas divertido el momento de ir leyendo el cuento. 
+// Chatgpt fue de gran ayuda para comprender como hacer cajas de texto, igualmente ayudo a corregir errores en el código que eran esenciales corregir.
 
 import ddf.minim.*; // Librería de audio
 
