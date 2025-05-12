@@ -2,6 +2,7 @@
 // esta historia corta trata de inspirar y decirle a las personas como es que por mas de que tenga uno obstaculos siempre va a poder sobrepasarlos sin importar que tan 
 // dificiles sean. Este codigo cuenta tambien con una cancion para que sea mas divertido el momento de ir leyendo el cuento. 
 // Chatgpt fue de gran ayuda para comprender como hacer cajas de texto, igualmente ayudo a corregir errores en el código que eran esenciales corregir.
+//Igualmente se utilizo la página de processing pra comprender ciertos comandos que se estaban deseando ejecutar y aprendr a utilizarlos de forma correcta 
 
 import ddf.minim.*; // Librería de audio
 
