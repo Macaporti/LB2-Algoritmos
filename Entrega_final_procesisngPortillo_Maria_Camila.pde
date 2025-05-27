@@ -1,7 +1,5 @@
 // Este proyecto explora una narrativa interactiva que se desarrolla a través de imágenes, texto, sonido e interacción.
 // El usuario navega por distintas fases y al final puede votar su experiencia emocional.
-// Este codigo es de una historia que trata sobre mi sueño ideal de vida. Apartir de este codigo se aprendieron diferentes
-// codigos para que se logre el codigo deseado en cada fase
 
 // Librería de audio
 import ddf.minim.*;
